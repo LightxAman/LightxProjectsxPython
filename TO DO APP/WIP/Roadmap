@@ -1,0 +1,82 @@
+Online Research to make to do app :
+
+Set Up Your Environment:
+---------------------------
+Install necessary libraries such as:
+-> tkinter for the GUI
+-> sqlite3 for the database
+-> matplotlib or seaborn for visualizations.
+
+
+Project Structure:
+----------------------
+
+Organize your project into modules for better readability and maintainability.
+------------------------------------------------------------------
+Example structure:
+
+to_do_notes_app/
+├── app.py
+├── database.py
+├── gui.py
+├── notes.py
+├── tasks.py
+├── visualization.py
+├── utils.py
+└── requirements.txt
+-----------------------------------------------------------------
+
+Database Module (database.py):
+
+Set up a SQLite database to store tasks and notes.
+
+Example functions:
+create_tables()
+add_task()
+delete_task()
+add_note()
+delete_note()
+fetch_all_tasks()
+fetch_all_notes().
+
+-------------------------------------------------------------
+GUI Module (gui.py):
+--------------------
+Create the main application window using tkinter.
+
+Define different frames or windows for tasks and notes.
+
+--------------------------------------------------------------
+Tasks Module (tasks.py):
+------------------------
+
+Define functions and classes to manage tasks.
+
+Example classes: Task, TaskManager.
+
+--------------------------------------------------------------
+Notes Module (notes.py):
+------------------------
+Define functions and classes to manage notes.
+Example classes: Note, NoteManager.
+
+--------------------------------------------------------------
+Visualization Module (visualization.py):
+----------------------------------------
+
+Create functions to generate visual reports.
+
+Example functions: plot_tasks_by_priority(), plot_tasks_over_time().
+
+----------------------------------------------------------------
+Utility Module (utils.py):
+--------------------------
+
+Define helper functions for common operations.
+
+Example functions: get_current_time(), validate_input().
+
+-----------------------------------------------------------------
+Main Application (app.py):
+--------------------------
+Integrate all modules and run the application.
